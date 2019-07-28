@@ -5,7 +5,8 @@ def map(array)
     yield(array)
     i += 1
   end
-  return new_array{|n| n.to.i * -1}
+  return new_array{|n| n * -1}
+  return new_array{|n| n}
 end
   
 
