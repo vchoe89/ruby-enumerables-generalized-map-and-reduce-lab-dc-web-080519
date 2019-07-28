@@ -11,7 +11,7 @@ end
 
 
 def reduce(array, starting_point = 0)
-    if start
+  if start
    total = start
     i = 0
 
