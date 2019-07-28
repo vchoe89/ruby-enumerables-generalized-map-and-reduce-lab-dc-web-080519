@@ -1,4 +1,6 @@
 def map(array)
+  
+  
 end
   
   
