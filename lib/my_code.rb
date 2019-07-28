@@ -1,6 +1,10 @@
 def map(array)
+  new_array = []
   while i < array.length do
-    
+    yield( array[i])
+    i += 1
+  end
+  return new_array
 end
   
 
