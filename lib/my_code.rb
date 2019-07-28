@@ -1,7 +1,7 @@
 def map(array)
   new_array = []
   while i < array.length do
-    yield( array[i] )
+    yield(array)
     i += 1
   end
   new_array{ |n| n * -1}
