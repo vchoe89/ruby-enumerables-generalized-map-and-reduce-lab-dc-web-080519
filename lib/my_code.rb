@@ -1,12 +1,6 @@
 def map(array, block)
   new_array = []
-  if block
-    total = block
-    i = 0
-  else
-    total = array[0]
-  end
-  
+  i = 0
   while i < array.length do
     block = yield(block, array[i])
     i += 1
