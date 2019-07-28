@@ -1,10 +1,5 @@
 def map(array)
-  new_array = []
-  while
-  
-  
-end
-  
+
   
 
 
