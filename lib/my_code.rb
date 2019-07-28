@@ -27,6 +27,5 @@ def reduce(array, starting_point = 0)
  	end
  	return total
 end
-end
 
 
