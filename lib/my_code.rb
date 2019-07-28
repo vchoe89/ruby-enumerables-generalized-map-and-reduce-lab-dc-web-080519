@@ -1,11 +1,10 @@
-def map(array)
+def map(array, block)
   new_array = []
   i = 0
   while i < array.length do
-    yield(array)
+    block = yield(array)
     i += 1
   end
-  return new_array{|n| n * -1}
 end
   
 
