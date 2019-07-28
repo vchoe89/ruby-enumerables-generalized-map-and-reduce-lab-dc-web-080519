@@ -1,5 +1,6 @@
 def map(array)
-  
+  while i < array.length do
+    
 end
   
 
