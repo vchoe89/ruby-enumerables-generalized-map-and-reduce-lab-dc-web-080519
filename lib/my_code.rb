@@ -10,7 +10,7 @@ end
 
 
 
-def reduce(array, starting_point = 0)
+def reduce (array, start = nil)
   if start
    total = start
     i = 0
